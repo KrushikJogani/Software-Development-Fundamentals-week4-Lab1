@@ -1,12 +1,20 @@
 def greet(name):
-    print(f" Good Morning {name}")
-greet("krushik")
-greet("amritpal")
+    # this function is used to greet the person
+    print(f"Good Morning {name}")   # showing message on screen
 
-def numbers(a,b):
-    return a + b
-result_1 = numbers(10,20)
-result_2 = numbers(0.2,1)
+# calling function for different users
+greet("krushik")   # for first name
+greet("amritpal")  # for second name
 
-print(result_1)
-print(result_2)
+
+def numbers(a, b):
+    # here we are just adding two numbers
+    return a + b   # giving back the result
+
+# storing answers in variables
+result_1 = numbers(10, 20)   # adding two integers
+result_2 = numbers(0.2, 1)   # adding decimal and number
+
+# printing results
+print(result_1)   # print first answer
+print(result_2)   # print second answer
