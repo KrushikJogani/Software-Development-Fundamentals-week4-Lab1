@@ -1,11 +1,26 @@
-def sum(a,b):
-    return a + b
-def multiply(x,y):
-    return x*y
-def sum_and_multiply(a,b,c):
-    sumresult = sum(a,b)
-    multiplyresult = multiply(sumresult,c)
+def sum(a, b):
+    # this function adds two numbers
+    return a + b   # sending back addition
+
+
+def multiply(x, y):
+    # this function is for multiplication
+    return x * y   # returning multiply result
+
+
+def sum_and_multiply(a, b, c):
+    # first we add a and b
+    sumresult = sum(a, b)
+
+    # then we multiply that result with c
+    multiplyresult = multiply(sumresult, c)
+
+    # giving final answer back
     return multiplyresult
 
-result = sum_and_multiply(10,20,20)
-print(result) 
+
+# calling main function with values
+result = sum_and_multiply(10, 20, 20)
+
+# printing output
+print(result)   # showing final result
